@@ -21,7 +21,7 @@ func init() {
 	if err != nil {
 		log.Fatal().Msgf("Error creating Discord session: %v", err)
 	}
-	log.Debug().Msg("Cibbectuib to Discord established")
+	log.Debug().Msg("Connections to Discord established")
 }
 
 func main() {
